@@ -1,0 +1,66 @@
+{
+  "name": "express e-commerce",
+  "version": "0.0.1",
+  "description": "A boilerplate for Node.js e-commerce applications",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sarpisik/express-e_commerce-app.git"
+  },
+  "license": "MIT",
+  "author": "Sarp Isik",
+  "scripts": {
+    "start": "node app.js",
+    "test": "nyc mocha --timeout=10000 --exit",
+    "lint": "eslint \"**/*.js\""
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "chalk": "^2.4.2",
+    "chart.js": "^2.9.1",
+    "cheerio": "^1.0.0-rc.3",
+    "clockwork": "^0.1.4",
+    "compression": "^1.7.4",
+    "connect-mongo": "^3.1.2",
+    "dotenv": "^8.2.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "express-status-monitor": "^1.2.7",
+    "lodash": "^4.17.15",
+    "lusca": "^1.6.1",
+    "mailchecker": "^3.3.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.7",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.3.1",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^2.0.0",
+    "passport-linkedin-oauth2": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "passport-oauth": "^1.0.0",
+    "passport-oauth2-refresh": "^1.1.0",
+    "paypal-rest-sdk": "^1.8.1",
+    "request": "^2.88.0",
+    "stripe": "^7.11.0",
+    "validator": "^12.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-chai-friendly": "^0.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "mocha": "^6.2.2",
+    "nyc": "^14.1.1",
+    "sinon": "^7.5.0",
+    "sinon-mongoose": "^2.3.0",
+    "supertest": "^5.0.0-0"
+  },
+  "engines": {
+    "node": ">=8.16.1",
+    "npm": ">=6.4.1"
+  }
+}
